@@ -1,0 +1,48 @@
+* {overflow: auto;}
+body { 
+    background-color: #8BA1BB;
+    font-family: Arial;
+    overflow: visible;
+}
+p.categorie { 
+    color : white;
+    background-color: black;
+    text-align: center;
+    display: inline-block ;
+    margin-left: 0px;
+    margin-top: -20px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    overflow: visible;
+}
+div.categorie {text-align: center;margin-bottom: 0px;overflow: visible;margin-top: 50px;}
+div.contenu {
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 0px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+    
+    
+}
+h1{
+    text-align: center;margin-bottom: 12px;margin-top: 10px;
+}
+p.description {text-align: center;display: inline-block;max-width: 400px;font-size: 14px;}
+div.description {text-align: center;}
+div.separateur {background-color: black;height: 1px;width: 100px;margin-left: auto;margin-right: auto;}
+img.gateauimg {width: 100%;object-fit: cover;display: block;}
+table.infos {position: absolute;color: white; bottom: 0;width: 100%;height: 80px;background-color: #8BA1BBC0;}
+div.infos {width: 100% ;position: relative;}
+table.infos td {text-align: center;font-size: 14px}
+div.colonne1 {display: inline-block;}
+div.colonne2 {float: right;}
+div.colonne {width: 45%;margin-top: 30px;overflow: auto;}
+div.colonne h2 {text-align: center;text-transform: uppercase;font-size: 15px;padding-bottom: 5px ;border-bottom: #6c829d 5px solid;}
+div.Ingredients p {border: lightgray 1px solid;text-align: center;padding: 5px;margin: 3px;}
+table.preparation p.numero {background-color: #6c829d;color: white;width: 25px;height: 25px;text-align: center;padding-top: 4px;box-sizing: border-box;border-radius: 50%;margin-right: 15px;margin-bottom: 5px;}
+table.preparation td {vertical-align: top;}
+table.preparation .prep{font-size: 14px; padding-bottom: 10px;}
+table.preparation tr{height: 40px;}
+div.c {overflow: auto;}
